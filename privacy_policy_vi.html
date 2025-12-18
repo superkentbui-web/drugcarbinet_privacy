@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chính Sách Bảo Mật - Tủ Thuốc Gia Đình</title>
+    <title>Chính sách riêng tư - Tủ Thuốc Gia Đình</title>
     <style>
         * {
             box-sizing: border-box;
@@ -14,7 +14,7 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            line-height: 1.7;
+            line-height: 1.6;
             color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
@@ -24,57 +24,39 @@
         .container {
             max-width: 800px;
             margin: 0 auto;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
+            background: white;
+            border-radius: 16px;
             padding: 40px;
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
         }
 
         h1 {
             color: #667eea;
-            font-size: 2rem;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-
-        .app-name {
-            text-align: center;
-            color: #764ba2;
-            font-weight: 600;
-            margin-bottom: 5px;
-        }
-
-        .last-updated {
-            text-align: center;
-            color: #888;
-            font-size: 0.9rem;
-            margin-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
         }
 
         h2 {
-            color: #667eea;
-            font-size: 1.3rem;
+            color: #764ba2;
             margin-top: 30px;
             margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #eee;
+            padding-left: 10px;
+            border-left: 4px solid #667eea;
         }
 
         h3 {
             color: #555;
-            font-size: 1.1rem;
             margin-top: 20px;
             margin-bottom: 10px;
         }
 
-        p,
-        li {
-            color: #555;
-            margin-bottom: 12px;
+        p {
+            margin-bottom: 15px;
         }
 
         ul {
-            padding-left: 25px;
+            margin-left: 25px;
             margin-bottom: 15px;
         }
 
@@ -82,191 +64,158 @@
             margin-bottom: 8px;
         }
 
+        .meta {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .meta strong {
+            color: #333;
+        }
+
+        .important {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
         .highlight {
-            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
-            padding: 20px;
-            border-radius: 12px;
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
             margin: 20px 0;
+            border-radius: 0 8px 8px 0;
         }
 
-        .info-box {
-            background: #e8f4fd;
-            border-left: 4px solid #3b82f6;
-            padding: 15px 20px;
-            border-radius: 0 12px 12px 0;
-            margin: 20px 0;
+        a {
+            color: #667eea;
         }
 
-        .contact-box {
-            background: #f8f9ff;
-            border-left: 4px solid #667eea;
-            padding: 20px;
-            border-radius: 0 12px 12px 0;
-            margin-top: 30px;
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
         }
 
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-            color: #888;
-            font-size: 0.85rem;
+        .lang-switch a {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 14px;
         }
 
-        strong {
-            color: #444;
+        .lang-switch a:hover {
+            background: #764ba2;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <p class="app-name">TỦ THUỐC GIA ĐÌNH</p>
-        <h1>Chính Sách Bảo Mật</h1>
-        <p class="last-updated">Cập nhật lần cuối: 12 tháng 12, 2024</p>
+        <div class="lang-switch">
+            <a href="privacy_policy_en.html">🇺🇸 English</a>
+        </div>
 
+        <h1>🔒 Chính sách riêng tư</h1>
+
+        <div class="meta">
+            <strong>Cập nhật lần cuối:</strong> 19/12/2025<br>
+            <strong>Nhà phát triển:</strong> Tủ Thuốc Gia Đình<br>
+            <strong>Liên hệ:</strong> <a href="mailto:superkent.bui@gmail.com">superkent.bui@gmail.com</a>
+        </div>
+
+        <h2>1. Giới thiệu</h2>
+        <p>Chính sách này mô tả cách ứng dụng <strong>Tủ Thuốc Gia Đình</strong> ("Ứng dụng") xử lý dữ liệu khi bạn sử
+            dụng các tính năng quản lý thuốc, nhắc lịch và theo dõi sức khỏe.</p>
+
+        <h2>2. Dữ liệu chúng tôi xử lý</h2>
+
+        <h3>2.1 Dữ liệu bạn nhập (Có thể là dữ liệu nhạy cảm)</h3>
+        <ul>
+            <li><strong>Hồ sơ gia đình:</strong> Tên, năm sinh (nếu bạn nhập)</li>
+            <li><strong>Thông tin sức khỏe:</strong> Dị ứng, tình trạng (gan/thận, mang thai), ghi chú y tế</li>
+            <li><strong>Dữ liệu thuốc:</strong> Tên thuốc, liều lượng, lịch uống, lịch sử dùng thuốc</li>
+            <li><strong>Hình ảnh:</strong> Ảnh quét nhãn/đơn thuốc (nếu sử dụng tính năng này)</li>
+        </ul>
+
+        <h3>2.2 Dữ liệu kỹ thuật</h3>
+        <ul>
+            <li><strong>Quảng cáo:</strong> Google AdMob có thể thu thập ID quảng cáo và thông tin thiết bị</li>
+            <li><strong>Báo lỗi:</strong> Chúng tôi KHÔNG thu thập báo lỗi hoặc phân tích ra ngoài thiết bị</li>
+        </ul>
+
+        <h2>3. Mục đích sử dụng dữ liệu</h2>
+        <ul>
+            <li>Cung cấp tính năng quản lý thuốc, nhắc lịch, cảnh báo an toàn</li>
+            <li>Hiển thị thông tin tham khảo về thuốc bạn đã lưu</li>
+            <li>Hiển thị quảng cáo không cá nhân hóa qua AdMob</li>
+        </ul>
+
+        <h2>4. Lưu trữ & Chia sẻ dữ liệu</h2>
+
+        <h3>Lưu trữ</h3>
         <div class="highlight">
-            <p><strong>Cam kết của chúng tôi:</strong> Ứng dụng Tủ Thuốc Gia Đình luôn luôn tôn trọng quyền riêng tư của
-                bạn và cam kết bảo vệ thông tin cá nhân mà bạn cung
-                cấp.</p>
+            <strong>✅ Tất cả dữ liệu sức khỏe được lưu TẠI CHỖ trên thiết bị của bạn</strong><br>
+            Chúng tôi KHÔNG tải dữ liệu thuốc hoặc sức khỏe lên máy chủ.
         </div>
-
-        <h2>1. Thông Tin Chúng Tôi Thu Thập</h2>
-
-        <h3>1.1. Thông tin bạn cung cấp trực tiếp</h3>
         <ul>
-            <li><strong>Thông tin thuốc:</strong> Tên thuốc, liều lượng, hạn sử dụng, ghi chú sử dụng</li>
-            <li><strong>Thông tin thành viên gia đình:</strong> Tên, tuổi, thông tin dị ứng, bệnh nền (nếu bạn chọn
-                nhập)</li>
-            <li><strong>Lịch dùng thuốc:</strong> Thời gian nhắc nhở, lịch sử sử dụng thuốc</li>
+            <li>Nếu bạn dùng sao lưu của hệ điều hành (Google/Apple), dữ liệu có thể được bao gồm</li>
         </ul>
 
-        <h3>1.2. Thông tin tự động thu thập</h3>
+        <h3>Chia sẻ với bên thứ ba</h3>
         <ul>
-            <li><strong>Thông tin thiết bị:</strong> Loại thiết bị, phiên bản hệ điều hành (cho mục đích gỡ lỗi)</li>
-            <li><strong>Dữ liệu sử dụng:</strong> Thống kê ẩn danh về cách bạn sử dụng ứng dụng</li>
-        </ul>
-
-        <h3>1.3. Thông tin chúng tôi KHÔNG thu thập</h3>
-        <div class="info-box">
-            <ul>
-                <li><strong>Không thu thập vị trí chính xác</strong> – Chúng tôi không truy cập GPS hoặc dịch vụ định vị
-                </li>
-                <li><strong>Không thu thập thông tin định danh cá nhân</strong> – Không thu thập email, số điện thoại,
-                    hoặc CMND/CCCD</li>
-                <li><strong>Không kết nối hồ sơ y tế bên ngoài</strong> – Không kết nối với bệnh viện hoặc hệ thống y tế
-                </li>
-                <li><strong>Không thu thập dữ liệu sinh trắc học</strong> – Không thu thập vân tay, khuôn mặt, hoặc
-                    giọng nói</li>
-            </ul>
-        </div>
-
-        <div class="info-box">
-            <p><strong>Lưu ý pháp lý:</strong> Ứng dụng không thu thập, lưu trữ hoặc xử lý dữ liệu y tế thuộc nhóm nhạy
-                cảm theo pháp luật Việt Nam. Tất cả thông tin được lưu trữ cục bộ trên thiết bị của bạn.</p>
-        </div>
-
-        <h2>2. Yêu Cầu Tài Khoản</h2>
-        <div class="info-box">
-            <p><strong>Không cần tài khoản:</strong> Ứng dụng không yêu cầu tạo tài khoản người dùng. Tất cả tính năng
-                hoạt động mà không cần đăng nhập hoặc đăng ký. Dữ liệu của bạn hoàn toàn nằm trên thiết bị của bạn.</p>
-        </div>
-
-        <h2>3. Cách Chúng Tôi Sử Dụng Thông Tin</h2>
-        <p>Thông tin của bạn được sử dụng để:</p>
-        <ul>
-            <li>Cung cấp các tính năng quản lý tủ thuốc của ứng dụng</li>
-            <li>Gửi thông báo nhắc nhở uống thuốc và cảnh báo hết hạn</li>
-            <li>Kiểm tra tương tác thuốc và cảnh báo an toàn</li>
-            <li>Cải thiện trải nghiệm người dùng và hiệu suất ứng dụng</li>
-            <li>Hiển thị quảng cáo phù hợp (nếu bạn sử dụng phiên bản miễn phí)</li>
-        </ul>
-
-        <h2>4. Lưu Trữ Dữ Liệu</h2>
-        <div class="highlight">
-            <p><strong>Dữ liệu lưu trữ cục bộ:</strong> Tất cả thông tin thuốc, thành viên gia đình và lịch sử sử dụng
-                được lưu trữ <strong>cục bộ trên thiết bị của bạn</strong>. Chúng tôi không tải lên hoặc lưu trữ dữ liệu
-                cá nhân của bạn trên máy chủ của chúng tôi.</p>
-        </div>
-        <ul>
-            <li>Dữ liệu được lưu trong cơ sở dữ liệu an toàn trên thiết bị</li>
-            <li>Bạn có toàn quyền kiểm soát dữ liệu của mình</li>
-            <li>Gỡ cài đặt ứng dụng sẽ xóa tất cả dữ liệu cục bộ</li>
-            <li>Chúng tôi khuyến nghị sao lưu thường xuyên vì dữ liệu không thể phục hồi sau khi gỡ cài đặt</li>
-        </ul>
-
-        <h2>5. Chia Sẻ Thông Tin</h2>
-        <p>Chúng tôi <strong>không bán, cho thuê hoặc chia sẻ</strong> thông tin cá nhân của bạn với bên thứ ba, ngoại
-            trừ:</p>
-        <ul>
-            <li><strong>Đối tác quảng cáo (Google AdMob):</strong> Nhận dữ liệu ẩn danh để hiển thị quảng cáo phù hợp
-            </li>
-            <li><strong>Yêu cầu pháp lý:</strong> Khi được yêu cầu bởi cơ quan có thẩm quyền theo quy định pháp luật
+            <li><strong>Chúng tôi KHÔNG chia sẻ dữ liệu sức khỏe cho quảng cáo/tiếp thị</strong></li>
+            <li>SDK AdMob có thể thu thập ID thiết bị để hiển thị quảng cáo (KHÔNG phải dữ liệu sức khỏe)</li>
+            <li>Dữ liệu chỉ được chia sẻ khi:
+                <ul>
+                    <li>Bạn chủ động xuất/chia sẻ từ ứng dụng</li>
+                    <li>Có yêu cầu hợp pháp từ cơ quan chức năng</li>
+                </ul>
             </li>
         </ul>
 
-        <h2>6. Dịch Vụ Bên Thứ Ba</h2>
-        <h3>6.1. Google AdMob (Quảng cáo)</h3>
-        <p>Ứng dụng sử dụng Google AdMob để hiển thị quảng cáo. Google có thể thu thập:</p>
+        <h2>5. Thời hạn lưu giữ & Xóa dữ liệu</h2>
+        <p>Dữ liệu được lưu cho đến khi:</p>
         <ul>
-            <li>Mã định danh quảng cáo của thiết bị (Advertising ID)</li>
-            <li>Địa chỉ IP (để nhắm mục tiêu quảng cáo theo vị trí chung)</li>
-            <li>Dữ liệu tương tác quảng cáo (nhấp chuột, lượt hiển thị)</li>
-        </ul>
-        <p>Bạn có thể tắt quảng cáo cá nhân hóa trong cài đặt thiết bị hoặc nâng cấp lên phiên bản Premium để loại bỏ
-            quảng cáo hoàn toàn.</p>
-
-        <h3>6.2. Không có SDK bên thứ ba khác</h3>
-        <div class="info-box">
-            <p>Ngoài Google AdMob cho quảng cáo và Google Play Billing cho mua hàng Premium, <strong>không có SDK bên
-                    thứ ba nào khác</strong> được tích hợp vào ứng dụng này thu thập dữ liệu người dùng.</p>
-        </div>
-
-        <h2>7. Bảo Mật</h2>
-        <p>Chúng tôi áp dụng các biện pháp bảo mật hợp lý để bảo vệ dữ liệu của bạn:</p>
-        <ul>
-            <li>Dữ liệu được lưu trữ trong cơ sở dữ liệu được mã hóa của Android</li>
-            <li>Ứng dụng không yêu cầu đăng nhập hoặc tài khoản người dùng</li>
-            <li>Không có kết nối mạng bắt buộc để sử dụng các tính năng chính</li>
-            <li>Tất cả dữ liệu sức khỏe nhạy cảm chỉ nằm trên thiết bị của bạn</li>
+            <li>Bạn xóa từng mục trong ứng dụng</li>
+            <li>Bạn chọn "Xóa toàn bộ dữ liệu" trong Cài đặt</li>
+            <li>Bạn gỡ cài đặt ứng dụng (tùy cơ chế sao lưu của hệ điều hành)</li>
         </ul>
 
-        <h2>8. Quyền Của Bạn</h2>
-        <p>Bạn có quyền:</p>
+        <h2>6. Quyền của bạn</h2>
+        <p>Bạn có thể:</p>
         <ul>
-            <li><strong>Truy cập:</strong> Xem tất cả dữ liệu đã lưu trong ứng dụng</li>
-            <li><strong>Chỉnh sửa:</strong> Cập nhật hoặc sửa đổi thông tin bất kỳ lúc nào</li>
-            <li><strong>Xóa:</strong> Xóa từng mục hoặc gỡ cài đặt ứng dụng để xóa toàn bộ dữ liệu</li>
-            <li><strong>Xuất dữ liệu:</strong> Sao lưu dữ liệu của bạn (nếu tính năng khả dụng)</li>
-            <li><strong>Từ chối:</strong> Tắt quảng cáo cá nhân hóa qua cài đặt thiết bị</li>
+            <li>Xem và sửa tất cả dữ liệu trực tiếp trong ứng dụng</li>
+            <li>Xóa bất kỳ hoặc tất cả dữ liệu bất cứ lúc nào</li>
+            <li>Tắt thông báo trong Cài đặt</li>
+            <li>Rút lại đồng ý (Đặt lại về màn hình chào mừng qua Cài đặt)</li>
         </ul>
 
-        <h2>9. Quyền Riêng Tư Của Trẻ Em</h2>
-        <p>Ứng dụng không được thiết kế để thu thập thông tin từ trẻ em dưới 13 tuổi. Thông tin thành viên gia đình (bao
-            gồm trẻ em) chỉ được nhập và quản lý bởi người lớn có trách nhiệm. Chúng tôi tuân thủ Đạo luật Bảo vệ Quyền
-            riêng tư Trực tuyến của Trẻ em (COPPA).</p>
+        <h2>7. Quyền riêng tư trẻ em</h2>
+        <p>Ứng dụng KHÔNG dành cho trẻ em sử dụng độc lập. Nếu bạn nhập dữ liệu cho trẻ em/người phụ thuộc, bạn xác nhận
+            mình có quyền hợp pháp và chịu trách nhiệm về tính chính xác.</p>
 
-        <h2>10. Người Dùng Quốc Tế</h2>
-        <p>Ứng dụng này có sẵn trên toàn cầu. Bằng việc sử dụng ứng dụng, bạn đồng ý với việc xử lý thông tin của bạn
-            như được mô tả trong chính sách này. Đối với người dùng tại Khu vực Kinh tế Châu Âu (EEA), chúng tôi xử lý
-            dữ liệu dựa trên lợi ích hợp pháp và sự đồng ý của bạn khi áp dụng.</p>
+        <h2>8. Bảo mật</h2>
+        <p>Chúng tôi áp dụng các biện pháp hợp lý để bảo vệ dữ liệu trên thiết bị. Khuyến nghị:</p>
+        <ul>
+            <li>Sử dụng khóa màn hình</li>
+            <li>Không chia sẻ thiết bị cho người không được phép</li>
+            <li>Không công khai thông tin sức khỏe nhạy cảm</li>
+        </ul>
 
-        <h2>11. Thay Đổi Chính Sách</h2>
-        <p>Chúng tôi có thể cập nhật Chính sách Bảo mật này theo thời gian. Mọi thay đổi quan trọng sẽ được thông báo
-            qua ứng dụng hoặc thông qua các kênh phù hợp. Ngày "Cập nhật lần cuối" ở đầu trang sẽ phản ánh phiên bản
-            hiện hành.</p>
+        <h2>9. Thay đổi chính sách</h2>
+        <p>Chúng tôi có thể cập nhật chính sách này. Thay đổi quan trọng sẽ được thông báo qua ứng dụng.</p>
 
-        <h2>12. Liên Hệ</h2>
-        <div class="contact-box">
-            <p>Nếu bạn có câu hỏi hoặc thắc mắc về Chính sách Bảo mật này, vui lòng liên hệ:</p>
-            <p><strong>Email:</strong> superkent.bui@gmail.com</p>
-            <p><strong>Ứng dụng:</strong> Tủ Thuốc Gia Đình</p>
-        </div>
-
-        <div class="footer">
-            <p>© 2024 SuperKent. Tủ Thuốc Gia Đình. Đã đăng ký bản quyền.</p>
-        </div>
+        <h2>10. Liên hệ</h2>
+        <p>Câu hỏi về quyền riêng tư: <a
+                href="mailto:superkent.bui@gmail.com"><strong>superkent.bui@gmail.com</strong></a></p>
     </div>
 </body>
 
